@@ -1,0 +1,42 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 235, 235);
+}
+
+html {
+    font-family: helvetica;
+}
+
+.title {
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.labelForm {
+    font-size: 18px;
+}
+
+.formInput {
+    border: none;
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding: 8px 4px;
+}
